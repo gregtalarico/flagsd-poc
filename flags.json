@@ -14,7 +14,8 @@
               {
                 "var": "env"
               },
-              "development"
+              "development",
+              "test"
             ]
           },
           "on",
