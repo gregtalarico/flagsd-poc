@@ -17,8 +17,7 @@
               [
                 "development",
                 "test",
-                "foo",
-                "bar"
+                "foo"
               ]
             ]
           },
