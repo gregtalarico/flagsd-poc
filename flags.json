@@ -10,12 +10,14 @@
       "targeting": {
         "if": [
           {
-            "===": [
+            "in": [
               {
                 "var": "env"
               },
-              "development",
-              "test"
+              [
+                "development",
+                "test"
+              ]
             ]
           },
           "on",
