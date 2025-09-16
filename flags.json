@@ -1,0 +1,26 @@
+{
+  "flags": {
+    "feature-enabled": {
+      "state": "ENABLED",
+      "variants": {
+        "on": true,
+        "off": false
+      },
+      "defaultVariant": "off",
+      "targeting": {
+        "if": [
+          {
+            "===": [
+              {
+                "var": "env"
+              },
+              "development"
+            ]
+          },
+          "on",
+          "off"
+        ]
+      }
+    }
+  }
+}
